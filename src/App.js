@@ -1,12 +1,14 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import {Home, AboutMe, ContactMe, Projects, Resume, Sidebar} from './Components'
-import './App.css';
+import {Home, AboutMe, ContactMe, Projects, Resume, Navigation} from './Components'
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Navigation/>
         <Switch>
           <Route path="/aboutme">
             <AboutMe/>
@@ -25,7 +27,6 @@ function App() {
           </Route>
         </Switch>
 
-        <Sidebar/>
       </div>
     </Router>
   );
