@@ -4,10 +4,8 @@ import {Navbar, Nav} from 'react-bootstrap'
 
 function Navigation() {
     return (
-        <Navbar bg="dark" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-        <Navbar.Collapse id="basic-navbar-nav"/>
-            <Nav>
+        <Navbar sticky="top" bg="dark" expand="sm">
+            <Nav className="right">
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/'>Home</NavLink>
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/aboutme'>About Me</NavLink>
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/projects'>Projects</NavLink>
