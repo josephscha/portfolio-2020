@@ -20,7 +20,7 @@
         "title": "Gachamons",
         "description": "Inbrowser Mobile Gacha Game clone",
         "techstack": "Ruby, Rails, JavaScript, CSS",
-        "git" : "",
+        "git" : "https://github.com/josephscha/gachamons--backend , https://github.com/josephscha/gachamons--frontend",
         "demo" : ""
     },
     {
@@ -28,7 +28,7 @@
         "title": "Gundam Battlefield",
         "description": "Single Player RPG",
         "techstack": "Ruby, Rails API, JavaScript, ReactJS, CSS",
-        "git" : "",
+        "git" : "https://github.com/josephscha/gundam-backend , ",
         "demo" : ""
     },
     {
@@ -36,7 +36,7 @@
         "title": "Learn N'Play",
         "description": "Educational App for children",
         "techstack": "Ruby, Rails API, JavaScript, ReactJS, Web Speech Recognition API, CSS",
-        "git" : "",
+        "git" : "https://github.com/josephscha/learn-n-play-backend , https://github.com/josephscha/learn-n-play-frontend",
         "demo" : ""
     },
     {
@@ -44,7 +44,7 @@
         "title": "JosephSCha",
         "description": "Portfolio Website",
         "techstack": "ReactJS, CSS",
-        "git" : "",
+        "git" : "https://github.com/josephscha/portfolio-2020",
         "demo" : ""
     }
 ]
