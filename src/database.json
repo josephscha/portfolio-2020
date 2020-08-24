@@ -2,42 +2,48 @@
     {
         "id": 1,
         "title": "Mod 1 Weathers",
-        "description": "",
+        "description": "CLI Realtime Weather App",
+        "techstack": "Ruby",
         "git" : "",
         "demo" : ""
     },
     {
         "id": 2,
         "title": "POSH Artworks",
-        "description": "",
+        "description": "Art Gallery/Social Media",
+        "techstack": "Ruby, Rails, CSS",
         "git" : "",
         "demo" : ""
     },
     {
         "id": 3,
         "title": "Gachamons",
-        "description": "",
+        "description": "Inbrowser Mobile Gacha Game clone",
+        "techstack": "Ruby, Rails, JavaScript, CSS",
         "git" : "",
         "demo" : ""
     },
     {
         "id": 4,
         "title": "Gundam Battlefield",
-        "description": "",
+        "description": "Single Player RPG",
+        "techstack": "Ruby, Rails API, JavaScript, ReactJS, CSS",
         "git" : "",
         "demo" : ""
     },
     {
         "id": 5,
         "title": "Learn N'Play",
-        "description": "",
+        "description": "Educational App for children",
+        "techstack": "Ruby, Rails API, JavaScript, ReactJS, Web Speech Recognition API, CSS",
         "git" : "",
         "demo" : ""
     },
     {
         "id": 6,
-        "title": "Portfolio Website",
-        "description": "",
+        "title": "JosephSCha",
+        "description": "Portfolio Website",
+        "techstack": "ReactJS, CSS",
         "git" : "",
         "demo" : ""
     }

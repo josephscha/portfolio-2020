@@ -2,7 +2,10 @@ import React from 'react';
 
 function ContactMe() {
     return (
-        <div>ContactMe</div>
+        <div>
+            <a href="https://www.linkedin.com/in/joseph-cha-316639174/">LinkedIn</a>
+            <div>E-mail: JosephShinCha@gmail.com</div>
+        </div>
     )
 }
 

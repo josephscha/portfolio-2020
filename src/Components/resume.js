@@ -1,9 +1,13 @@
 import React from 'react';
+import pdf from './resume.pdf'
 
-function Resume() {
-    return (
-        <div>Resume</div>
-    )
+class Resume extends React.Component {
+
+    render () {
+        return (
+            <a href={pdf}>Resume</a>
+        )
+    }    
 }
 
 export default Resume;
