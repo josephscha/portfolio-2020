@@ -10,4 +10,5 @@ class Resume extends React.Component {
     }    
 }
 
+//need to find a way to display pdf 
 export default Resume;
