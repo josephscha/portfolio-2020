@@ -4,7 +4,7 @@
         "title": "Mod 1 Weathers",
         "description": "CLI Realtime Weather App",
         "techstack": "Ruby",
-        "git" : "",
+        "git" : "https://github.com/josephscha/mod-1-weather-project",
         "demo" : ""
     },
     {
@@ -28,7 +28,7 @@
         "title": "Gundam Battlefield",
         "description": "Single Player RPG",
         "techstack": "Ruby, Rails API, JavaScript, ReactJS, CSS",
-        "git" : "https://github.com/josephscha/gundam-backend , ",
+        "git" : "https://github.com/josephscha/gundam-backend , https://github.com/josephscha/gundam-frontend",
         "demo" : ""
     },
     {
