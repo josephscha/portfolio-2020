@@ -2,6 +2,7 @@
 
 body {
     background-image: url(./images/bgdefault.jpg);
+    color: white;
 }
 
 .profile-picture {
@@ -20,8 +21,10 @@ body {
 }
 
 .home {
+    margin-top: 1em;
     text-align: center;
-    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 
 .aboutme {

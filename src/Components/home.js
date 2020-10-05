@@ -3,8 +3,9 @@ import React from 'react';
 function Home() {
     return (
         <div className="home">
-            <div>Hi I am Joseph S Cha</div>
-            <div>I am a Full Stack Software Engineer</div>
+            <img className="profile-picture" src="./profilepicture.jpg" alt="default"/>
+            <div>Joseph S. Cha</div>
+            <div>Software Engineer</div>
         </div>
     )
 }
