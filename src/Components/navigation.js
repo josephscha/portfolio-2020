@@ -16,4 +16,5 @@ function Navigation() {
     )
 }
 
+// add links to github and linkedin in navbar
 export default Navigation;

@@ -11,4 +11,5 @@ function ProjectCard(props) {
     )
 }
 
+// design decisions for project cards
 export default ProjectCard;

@@ -9,4 +9,5 @@ function ContactMe() {
     )
 }
 
+// change to a way where they can email me directly through portal
 export default ContactMe;

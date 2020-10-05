@@ -12,5 +12,5 @@ class Resume extends React.Component {
     }    
 }
 
-//need to find a way to display pdf 
+//need to find a way to display pdf or keep as just a link on navbar
 export default Resume;
