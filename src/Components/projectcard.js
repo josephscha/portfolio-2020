@@ -12,4 +12,6 @@ function ProjectCard(props) {
 }
 
 // design decisions for project cards
+// onhover, play the gif
+// on click of the gif or link, take them to youtube demo video. 
 export default ProjectCard;
