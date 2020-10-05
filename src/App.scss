@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: grey;
+    background-image: url(./images/bgdefault.jpg);
 }
 
 .profile-picture {
@@ -29,3 +29,6 @@ body {
     padding-top: 50px;
 }
 
+.center {
+    text-align: center;
+}

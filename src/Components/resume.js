@@ -5,7 +5,9 @@ class Resume extends React.Component {
 
     render () {
         return (
-            <a href={pdf}>Resume</a>
+            <div className="center">
+                <a href={pdf}>Resume</a>
+            </div>
         )
     }    
 }
