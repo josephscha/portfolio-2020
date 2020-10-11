@@ -1,5 +1,4 @@
 import React from 'react';
-// import pdf from './resume.pdf'
 
 function AboutMe() {
     return (
@@ -17,7 +16,6 @@ function AboutMe() {
                 Technologies | Frameworks | Libraries: JavaScript (ES5/ES6), Ruby, HTML, CSS, SQL
                     Ruby on Rails, React, React Native, Redux, Node.js, PostgreSQL, SQLite3, Bootstrap, Semantic-UI
                 </div>
-                {/* <a href={pdf}>Resume</a> */}
         </div>
     )
 }
