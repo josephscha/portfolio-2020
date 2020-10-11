@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'
 import {Navbar, Nav} from 'react-bootstrap'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Navigation() {
     return (
@@ -11,6 +12,7 @@ function Navigation() {
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/projects'>Projects</NavLink>
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/contactme'>Contact Me</NavLink>
                 <NavLink className="d-inline p-2 bg-dark text-white" to='/resume'>Resume</NavLink>
+                
             </Nav>
         </Navbar>
     )
