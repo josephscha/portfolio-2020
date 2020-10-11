@@ -21,4 +21,5 @@ function Home() {
     )
 }
 
+// add styling to icons
 export default Home;
