@@ -5,11 +5,23 @@ body {
     color: white;
 }
 
+.amatic {
+    font-family: "Amatic SC"; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
 .profile-picture {
     height: 300px;
     width: auto;
     border-radius: 20em;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .profile-info {
@@ -20,11 +32,21 @@ body {
     padding-top: 20px
 }
 
+.homepage {
+    height: 700px;
+    position: relative;
+}
+
 .home {
-    margin-top: 1em;
+    top: 40%;
+    position: relative;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-family: Calligraffitti;
+    font-size: 80px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 510; 
+    line-height: 26.4px;
 }
 
 .aboutme {
@@ -61,6 +83,7 @@ body {
     transition: color 0.2s;
     margin-right: 10px;
     margin-left: 10px;
+    margin-top: 20px;
 }
 
 .icon:hover {

@@ -6,20 +6,21 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 function Navigation() {
   return (
     <Navbar sticky="top" bg="dark" expand="sm">
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
       <Nav className="right">
-        <NavLink className="d-inline p-2 bg-dark text-white" to="/">
+        <NavLink className="d-inline p-2 text-white amatic" to="/">
           Home
         </NavLink>
-        <NavLink className="d-inline p-2 bg-dark text-white" to="/aboutme">
+        <NavLink className="d-inline p-2  text-white amatic" to="/aboutme">
           About Me
         </NavLink>
-        <NavLink className="d-inline p-2 bg-dark text-white" to="/projects">
+        <NavLink className="d-inline p-2 text-white amatic" to="/projects">
           Projects
         </NavLink>
-        <NavLink className="d-inline p-2 bg-dark text-white" to="/contactme">
+        <NavLink className="d-inline p-2 text-white amatic" to="/contactme">
           Contact Me
         </NavLink>
-        <NavLink className="d-inline p-2 bg-dark text-white" to="/resume">
+        <NavLink className="d-inline p-2 text-white amatic" to="/resume">
           Resume
         </NavLink>
       </Nav>
