@@ -30,9 +30,11 @@ function Navigation() {
         <NavLink className="d-inline p-2 text-white amatic" to="/contactme">
           Contact Me
         </NavLink>
-        <NavLink className="d-inline p-2 text-white amatic" to="/resume">
+        <a href="https://drive.google.com/file/d/1vLOVUWlsAXlwu_T57nfOCgH1DMqfE6ya/view?usp=sharing"           target="_blank"
+          rel="noopener noreferrer"
+          className="d-inline p-2 text-white amatic">
           Resume
-        </NavLink>
+        </a>
       </Nav>
       <div className="rightside">
         <a
