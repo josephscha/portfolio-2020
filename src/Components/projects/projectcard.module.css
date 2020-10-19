@@ -15,7 +15,7 @@
 }
 
 .ProjectCard:hover {
-    background-color: rgb(255, 255, 255, .2);
+    background-color: rgb(255, 255, 255, .1);
 }
 
 .ReactPlayer {
@@ -32,9 +32,8 @@
     color: white;
     border: black;
     transition: color 0.2s;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .Icon:hover {

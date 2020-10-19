@@ -3,42 +3,51 @@
         "id": 1,
         "title": "Mod 1 Weathers",
         "description": "CLI Realtime Weather App using Metaweather API",
-        "git" : ["https://github.com/josephscha/mod-1-weather-project"],
-        "youtube" : "https://www.youtube.com/watch?v=gIy6cEg7Aic"
+        "git" : "https://github.com/josephscha/mod-1-weather-project",
+        "youtube" : "https://www.youtube.com/watch?v=gIy6cEg7Aic",
+        "github" : false
     },
     {
         "id": 2,
         "title": "POSH Artworks",
         "description": "Simplified Art Gallery and Instagram clone using the Metropolitan Museum of Art Collection API",
-        "git" : ["https://github.com/josephscha/POSH-Port-Out-Starboard-Home"],
-        "youtube" : ""
+        "git" : "https://github.com/josephscha/POSH-Port-Out-Starboard-Home",
+        "youtube" : "",
+        "github": false
     },
     {
         "id": 3,
         "title": "Gachamons",
         "description": "Inbrowser Monster collection game inspired by 'Gacha' game genre.",
-        "git" : ["https://github.com/josephscha/gachamons--backend" , "https://github.com/josephscha/gachamons--frontend"],
-        "youtube" : ""
+        "gitfront" : "https://github.com/josephscha/gachamons--frontend",
+        "gitback" : "https://github.com/josephscha/gachamons--backend",
+        "youtube" : "",
+        "github": true
     },
     {
         "id": 4,
         "title": "Gundam Battlefield",
         "description": "Single player turn based RPG inspired by a childhood favorite 'Gundam mobile suits'.",
-        "git" : ["https://github.com/josephscha/gundam-backend", "https://github.com/josephscha/gundam-frontend"],
-        "youtube" : ""
+        "gitfront" : "https://github.com/josephscha/gundam-frontend",
+        "gitback" : "https://github.com/josephscha/gundam-backend",
+        "youtube" : "",
+        "github": true
     },
     {
         "id": 5,
         "title": "Learn N'Play",
         "description": "Educational application for children to practice Math, Spelling and Reading through the use of a speech recognition API.",
-        "git" : ["https://github.com/josephscha/learn-n-play-backend" , "https://github.com/josephscha/learn-n-play-frontend"],
-        "youtube" : ""
+        "gitfront" : "https://github.com/josephscha/learn-n-play-frontend",
+        "gitback": "https://github.com/josephscha/learn-n-play-backend" , 
+        "youtube" : "",
+        "github": true
     },
     {
         "id": 6,
         "title": "Portfolio Website",
         "description": "Portfolio Website designed to look clean and chic.",
         "git" : "https://github.com/josephscha/portfolio-2020",
-        "youtube" : ""
+        "youtube" : "",
+        "github": false
     }
 ]
