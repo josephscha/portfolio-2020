@@ -1,0 +1,52 @@
+.ProjectCard {
+    align-content: center;
+    height: 650px;
+}
+
+.Title {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    font-family: Calligraffitti;
+    font-size: 60px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 600; 
+    line-height: 26px;
+}
+
+.ProjectCard:hover {
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.ReactPlayer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Icon {
+    height: 50px;
+    width: 50px;
+    color: white;
+    border: black;
+    transition: color 0.2s;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Icon:hover {
+    animation: bounce 1.0s infinite;
+}
+
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

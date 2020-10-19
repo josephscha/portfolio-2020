@@ -2,49 +2,43 @@
     {
         "id": 1,
         "title": "Mod 1 Weathers",
-        "description": "CLI Realtime Weather App",
-        "techstack": "Ruby",
-        "git" : "https://github.com/josephscha/mod-1-weather-project",
-        "demo" : ""
+        "description": "CLI Realtime Weather App using Metaweather API",
+        "git" : ["https://github.com/josephscha/mod-1-weather-project"],
+        "youtube" : "https://www.youtube.com/watch?v=gIy6cEg7Aic"
     },
     {
         "id": 2,
         "title": "POSH Artworks",
-        "description": "Art Gallery/Social Media",
-        "techstack": "Ruby, Rails, CSS",
-        "git" : "",
-        "demo" : ""
+        "description": "Simplified Art Gallery and Instagram clone using the Metropolitan Museum of Art Collection API",
+        "git" : ["https://github.com/josephscha/POSH-Port-Out-Starboard-Home"],
+        "youtube" : ""
     },
     {
         "id": 3,
         "title": "Gachamons",
-        "description": "Inbrowser Mobile Gacha Game clone",
-        "techstack": "Ruby, Rails, JavaScript, CSS",
-        "git" : "https://github.com/josephscha/gachamons--backend , https://github.com/josephscha/gachamons--frontend",
-        "demo" : ""
+        "description": "Inbrowser Monster collection game inspired by 'Gacha' game genre.",
+        "git" : ["https://github.com/josephscha/gachamons--backend" , "https://github.com/josephscha/gachamons--frontend"],
+        "youtube" : ""
     },
     {
         "id": 4,
         "title": "Gundam Battlefield",
-        "description": "Single Player RPG",
-        "techstack": "Ruby, Rails API, JavaScript, ReactJS, CSS",
-        "git" : "https://github.com/josephscha/gundam-backend , https://github.com/josephscha/gundam-frontend",
-        "demo" : ""
+        "description": "Single player turn based RPG inspired by a childhood favorite 'Gundam mobile suits'.",
+        "git" : ["https://github.com/josephscha/gundam-backend", "https://github.com/josephscha/gundam-frontend"],
+        "youtube" : ""
     },
     {
         "id": 5,
         "title": "Learn N'Play",
-        "description": "Educational App for children",
-        "techstack": "Ruby, Rails API, JavaScript, ReactJS, Web Speech Recognition API, CSS",
-        "git" : "https://github.com/josephscha/learn-n-play-backend , https://github.com/josephscha/learn-n-play-frontend",
-        "demo" : ""
+        "description": "Educational application for children to practice Math, Spelling and Reading through the use of a speech recognition API.",
+        "git" : ["https://github.com/josephscha/learn-n-play-backend" , "https://github.com/josephscha/learn-n-play-frontend"],
+        "youtube" : ""
     },
     {
         "id": 6,
-        "title": "JosephSCha",
-        "description": "Portfolio Website",
-        "techstack": "ReactJS, CSS",
+        "title": "Portfolio Website",
+        "description": "Portfolio Website designed to look clean and chic.",
         "git" : "https://github.com/josephscha/portfolio-2020",
-        "demo" : ""
+        "youtube" : ""
     }
 ]

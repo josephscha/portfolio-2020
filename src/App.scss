@@ -20,26 +20,6 @@ body {
     margin-left: 10px
 }
 
-
-.homepage {
-    height: 700px;
-    position: relative;
-}
-
-.home {
-    top: 30%;
-    position: relative;
-    text-align: center;
-    font-family: Calligraffitti;
-    font-size: 80px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 510; 
-    line-height: 26.4px;
-}
-
-
-
 .center {
     text-align: center;
 }
@@ -54,35 +34,10 @@ body {
 }
 
 .navicon:hover {
-    color: silver;
+    color: black;
 }
 
 .rightside {
     position: absolute;
     right: 2em;
-}
-
-.icon {
-    height: 50px;
-    width: 50px;
-    color: white;
-    border: black;
-    transition: color 0.2s;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 40px;
-}
-
-.icon:hover {
-    animation: bounce 1.0s infinite;
-}
-
-@keyframes bounce {
-    0%,  
-    100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
 }
