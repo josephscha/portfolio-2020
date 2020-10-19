@@ -1,0 +1,36 @@
+.AboutMe {
+    height: 700px;
+    position: relative;
+    text-align: center;
+}
+
+.Name {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    position: relative;
+    text-align: center;
+    font-family: Calligraffitti;
+    font-size: 80px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 510; 
+    line-height: 26.4px;
+}
+
+
+.ProfilePicture {
+    position: relative;
+    height: 300px;
+    width: auto;
+    border-radius: 6em;
+    margin-top: 8%;
+    margin-bottom: 25px;
+}
+
+.ProfileInfo {
+    position: relative;
+    padding-top: 20px;
+    font-family: "Amatic SC";
+    font-size: 30px;
+    font-weight: 150;
+}

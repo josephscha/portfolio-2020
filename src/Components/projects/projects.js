@@ -1,5 +1,5 @@
 import React from 'react';
-import projects from '../database.json'
+import projects from '../../database.json'
 import ProjectCard from './projectcard'
 
 function Projects() {
