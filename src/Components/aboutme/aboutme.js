@@ -34,6 +34,7 @@ function AboutMe() {
                         <li className={AboutMeStyles.ListItem}>☞ Bootstrap</li>
                         <li className={AboutMeStyles.ListItem}>☞ JSON</li>
                         <li className={AboutMeStyles.ListItem}>☞ API</li>
+                        <li className={AboutMeStyles.ListItem}>☞ SQL</li>
                     </ul>
                     <p> And currently in the process of getting familiar with Python!</p>
                 </div>
