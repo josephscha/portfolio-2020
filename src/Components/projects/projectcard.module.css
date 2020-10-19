@@ -1,18 +1,14 @@
 .ProjectCard {
     align-content: center;
-    height: 650px;
+    height: auto;
     background-color: rgb(255, 255, 255, .1);
+    padding-bottom: 20px;
 }
 
 .Title {
     padding-top: 35px;
     padding-bottom: 20px;
-    font-family: Calligraffitti;
     font-size: 60px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 600; 
-    line-height: 26px;
 }
 
 .ProjectCard:hover {
