@@ -1,7 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaMedium } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithubSquare,
+  FaFacebookSquare,
+  FaMedium,
+  FaYoutube,
+} from "react-icons/fa";
 
 function Navigation() {
   return (
@@ -56,6 +62,9 @@ function Navigation() {
           rel="noopener noreferrer"
         >
           <FaMedium className="navicon" />
+        </a>
+        <a href="https://www.youtube.com/user/joebehustlin" target="_blank" rel="noopener noreferrer">
+          <FaYoutube className="navicon" />
         </a>
       </div>
     </Navbar>

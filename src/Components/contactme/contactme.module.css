@@ -1,0 +1,50 @@
+.Container {
+    position: relative;
+    text-align: center;
+    overflow: scroll;
+    align-content: flex-start;
+    justify-content: center;
+    background-color: rgba(0,0,0,.2);
+    height: 700px;
+    width: auto;
+    font-size: 30px;
+    font-weight: 150;
+    padding: 40px;
+}
+
+.Title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ContactMe {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.Icon {
+    height: 70px;
+    width: 70px;
+    color: white;
+    border: black;
+    transition: color 0.2s;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.Icon:hover {
+    animation: bounce 1.0s infinite;
+}
+
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

@@ -23,6 +23,8 @@ function AboutMe() {
                     <br></br>
                     <p>I enjoy creating websites, applications, and anything in between that serve a real life purpose while maintaining top of the line user experience.</p>
                     <br></br>
+                    <p>My previous work experience starting from an early age in retail and sales, all the way up the managerial ladder and last few years in the health field, working as a surgical coordinator and site manager have helped me build up the necessary discipline and attention to detail to tackle any challenges but most importantly, empathy.</p>
+                    <br></br>
                     <p>Here are a few technologies that I use:</p>
                     <ul className={AboutMeStyles.TechList}>
                         <li className={AboutMeStyles.ListItem}>☞ JavaScript(ES6)</li>

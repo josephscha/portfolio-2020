@@ -1,6 +1,7 @@
 .ProjectCard {
     align-content: center;
     height: 650px;
+    background-color: rgb(255, 255, 255, .1);
 }
 
 .Title {
@@ -15,7 +16,7 @@
 }
 
 .ProjectCard:hover {
-    background-color: rgb(255, 255, 255, .1);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .ReactPlayer {
