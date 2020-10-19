@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaMedium } from 'react-icons/fa';
 
 function Home() {
     return (
@@ -21,7 +21,17 @@ function Home() {
                 <a 
                     href="https://github.com/josephscha" 
                     target="_blank" 
-                    rel="noopener noreferrer"><FaGithub className="icon"/>
+                    rel="noopener noreferrer"><FaGithubSquare className="icon"/>
+                </a>
+                <a 
+                    href="https://www.facebook.com/JoeChaCha/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"><FaFacebookSquare className="icon"/>
+                </a>
+                <a 
+                    href="https://medium.com/@cha_joseph" 
+                    target="_blank" 
+                    rel="noopener noreferrer"><FaMedium className="icon"/>
                 </a>
             </div>
         </div>

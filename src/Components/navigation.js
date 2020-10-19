@@ -1,12 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav } from "react-bootstrap";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare, FaFacebookSquare, FaMedium } from "react-icons/fa";
 
 function Navigation() {
   return (
     <Navbar sticky="top" bg="dark" expand="sm">
-      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="//fonts.googleapis.com/css?family=Amatic+SC"
+      />
       <Nav className="right">
         <NavLink className="d-inline p-2 text-white amatic" to="/">
           Home
@@ -30,16 +34,30 @@ function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="navicon"/>
+          <FaLinkedin className="navicon" />
         </a>
         <a
           href="https://github.com/josephscha"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="navicon"/>
+          <FaGithubSquare className="navicon" />
         </a>
-        </div>
+        <a
+          href="https://www.facebook.com/JoeChaCha/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebookSquare className="navicon" />
+        </a>
+        <a
+          href="https://medium.com/@cha_joseph"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaMedium className="navicon" />
+        </a>
+      </div>
     </Navbar>
   );
 }
