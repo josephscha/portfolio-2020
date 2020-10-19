@@ -6,7 +6,6 @@ function AboutMe() {
         <div className={AboutMeStyles.AboutMe}>
             <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Calligraffitti" />
             <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
-            <h1 className={AboutMeStyles.Name}>Joseph S Cha</h1>
             <div className={AboutMeStyles.ImgDiv}>
                 <img className={AboutMeStyles.ProfilePicture} src="./profilepicture.jpg" alt="default"/>
             </div>
@@ -18,20 +17,23 @@ function AboutMe() {
                     Ruby on Rails, React, React Native, Redux, Node.js, PostgreSQL, SQLite3, Bootstrap, Semantic-UI
                 </div> */}
                 <div className={AboutMeStyles.ProfileInfo}>
-                    <p> Hello! I'm Joseph, a Software Engineer based in New York City. </p>
+                    <p> Hello! I'm Joseph S. Cha, a Software Engineer based in New York City. </p>
                     <br></br>
-                    <p>My journey to become a full stack developer began on the 17th of February of 2020 when I first attended Flatiron School's Full stack web development course.</p>
+                    <p>My journey to become a full stack developer began on the 17th of February of 2020 when I first attended Flatiron School's Full stack web development course. I graduated on the 19th of June, 2020.</p>
                     <br></br>
                     <p>I enjoy creating websites, applications, and anything in between that serve a real life purpose while maintaining top of the line user experience.</p>
                     <br></br>
                     <p>Here are a few technologies that I use:</p>
-                    <ul>
-                        <li>JavaScript (ES6)</li>
-                        <li>ReactJS</li>
-                        <li>React Native</li>
-                        <li>Ruby on Rails</li>
-                        <li>HTML</li>
-                        <li>(S)CSS</li>
+                    <ul className={AboutMeStyles.TechList}>
+                        <li className={AboutMeStyles.ListItem}>☞ JavaScript(ES6)</li>
+                        <li className={AboutMeStyles.ListItem}>☞ ReactJS</li>
+                        <li className={AboutMeStyles.ListItem}>☞ React Native</li>
+                        <li className={AboutMeStyles.ListItem}>☞ Ruby on Rails</li>
+                        <li className={AboutMeStyles.ListItem}>☞ HTML</li>
+                        <li className={AboutMeStyles.ListItem}>☞ (S)CSS</li>
+                        <li className={AboutMeStyles.ListItem}>☞ Bootstrap</li>
+                        <li className={AboutMeStyles.ListItem}>☞ JSON</li>
+                        <li className={AboutMeStyles.ListItem}>☞ API</li>
                     </ul>
                     <p> And currently in the process of getting familiar with Python!</p>
                 </div>

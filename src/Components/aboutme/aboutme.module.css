@@ -1,14 +1,12 @@
 .AboutMe {
     height: 700px;
-    position: relative;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .Name {
     margin-top: 7%;
     margin-bottom: 5%;
-    position: relative;
-    text-align: center;
     font-family: Calligraffitti;
     font-size: 80px; 
     font-style: normal; 
@@ -17,20 +15,44 @@
     line-height: 26.4px;
 }
 
+.ImgDiv {
+    margin-right: 3%;
+    margin-top: 10%;
+  }
 
 .ProfilePicture {
-    position: relative;
     height: 300px;
     width: auto;
     border-radius: 6em;
-    margin-top: 8%;
-    margin-bottom: 25px;
 }
 
 .ProfileInfo {
+    overflow: scroll;
+    align-content: flex-start;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    height: 600px;
+    width: 30em;
+    margin-top: 5%;
     position: relative;
     padding-top: 20px;
-    font-family: "Amatic SC";
+    /* font-family: "Amatic SC"; */
     font-size: 30px;
     font-weight: 150;
+    padding: 40px;
+}
+
+.TechList {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 400px));
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+}
+
+.ListItem {
+    margin-left: 10px;
+    margin-right: 10px;
 }
