@@ -10,12 +10,12 @@ function Home() {
             <a 
                 href="https://www.linkedin.com/in/joseph-cha-316639174/" 
                 target="_blank" 
-                rel="noopener noreferrer"><FaLinkedin/>
+                rel="noopener noreferrer"><FaLinkedin className="icon"/>
             </a>
             <a 
                 href="https://github.com/josephscha" 
                 target="_blank" 
-                rel="noopener noreferrer"><FaGithub/>
+                rel="noopener noreferrer"><FaGithub className="icon"/>
             </a>
         </div>
     )

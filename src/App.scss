@@ -35,3 +35,34 @@ body {
 .center {
     text-align: center;
 }
+
+.navicon {
+    height: 30px;
+    width: 30px;
+    color: whitesmoke;
+    transition: color 0.2s;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navicon:hover {
+    color: silver;
+}
+
+.rightside {
+    position: absolute;
+    right: 2em;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    color: whitesmoke;
+    transition: color 0.2s;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icon:hover {
+    
+}

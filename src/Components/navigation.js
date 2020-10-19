@@ -22,21 +22,23 @@ function Navigation() {
         <NavLink className="d-inline p-2 bg-dark text-white" to="/resume">
           Resume
         </NavLink>
+      </Nav>
+      <div className="rightside">
         <a
           href="https://www.linkedin.com/in/joseph-cha-316639174/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin />
+          <FaLinkedin className="navicon"/>
         </a>
         <a
           href="https://github.com/josephscha"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
+          <FaGithub className="navicon"/>
         </a>
-      </Nav>
+        </div>
     </Navbar>
   );
 }
