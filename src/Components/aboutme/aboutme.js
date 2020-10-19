@@ -27,16 +27,16 @@ function AboutMe() {
                     <br></br>
                     <p>Here are a few technologies that I use:</p>
                     <ul className={AboutMeStyles.TechList}>
-                        <li className={AboutMeStyles.ListItem}>☞ JavaScript(ES6)</li>
-                        <li className={AboutMeStyles.ListItem}>☞ ReactJS</li>
-                        <li className={AboutMeStyles.ListItem}>☞ React Native</li>
-                        <li className={AboutMeStyles.ListItem}>☞ Ruby on Rails</li>
-                        <li className={AboutMeStyles.ListItem}>☞ HTML</li>
-                        <li className={AboutMeStyles.ListItem}>☞ (S)CSS</li>
-                        <li className={AboutMeStyles.ListItem}>☞ Bootstrap</li>
-                        <li className={AboutMeStyles.ListItem}>☞ JSON</li>
-                        <li className={AboutMeStyles.ListItem}>☞ API</li>
-                        <li className={AboutMeStyles.ListItem}>☞ SQL</li>
+                        <li className={AboutMeStyles.ListItem}>◦ JavaScript(ES6)</li>
+                        <li className={AboutMeStyles.ListItem}>◦ ReactJS</li>
+                        <li className={AboutMeStyles.ListItem}>◦ React Native</li>
+                        <li className={AboutMeStyles.ListItem}>◦ Ruby on Rails</li>
+                        <li className={AboutMeStyles.ListItem}>◦ HTML</li>
+                        <li className={AboutMeStyles.ListItem}>◦ (S)CSS</li>
+                        <li className={AboutMeStyles.ListItem}>◦ Bootstrap</li>
+                        <li className={AboutMeStyles.ListItem}>◦ JSON</li>
+                        <li className={AboutMeStyles.ListItem}>◦ API</li>
+                        <li className={AboutMeStyles.ListItem}>◦ SQL</li>
                     </ul>
                     <p> And currently in the process of getting familiar with Python!</p>
                 </div>
