@@ -1,12 +1,12 @@
 import React from 'react';
-import pdf from '../resume.pdf'
+import resume from './resume.pdf'
 
 class Resume extends React.Component {
 
     render () {
         return (
             <div className="center">
-                <a href={pdf}>Resume</a>
+                <embed src={resume} width="800px" height="700px" />
             </div>
         )
     }    
