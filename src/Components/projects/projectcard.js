@@ -35,7 +35,7 @@ function ProjectCard(props) {
                 </>
                 }
             Demo:
-            <a 
+            <a  
                 href={props.youtube}
                 target="_blank" 
                 rel="noopener noreferrer"><FaYoutube className={ProjectCardStyles.Icon}/>
