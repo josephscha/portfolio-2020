@@ -2,17 +2,23 @@ import React from 'react';
 // import ReactPlayer from "react-player"
 import ProjectCardStyles from './projectcard.module.css'
 import { FaGithubSquare, FaYoutube } from 'react-icons/fa';
-
+import Carousel from 'react-images';
 
 function ProjectCard(props) {
-
+    const images = [];
+    var i 
+    for (i = 0; i < props.screenshots.length; i++){
+        images.push({source: props.screenshots[i]})
+    }
 
     return (
         <div className={ProjectCardStyles.ProjectCard}>
             <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Calligraffitti" />
             <h1 className={ProjectCardStyles.Title}>{props.title}</h1>
             {/* <ReactPlayer className={ProjectCardStyles.ReactPlayer} url={props.youtube}/> */}
-
+            <div className={ProjectCardStyles.Carousel}>
+            <Carousel views={images}/>
+            </div>
             <p>{props.description}</p>            
                 {
                     props.github === false ? 
