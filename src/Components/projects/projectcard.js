@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from "react-player"
+// import ReactPlayer from "react-player"
 import ProjectCardStyles from './projectcard.module.css'
 import { FaGithubSquare, FaYoutube } from 'react-icons/fa';
 
@@ -8,7 +8,8 @@ function ProjectCard(props) {
         <div className={ProjectCardStyles.ProjectCard}>
             <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Calligraffitti" />
             <h1 className={ProjectCardStyles.Title}>{props.title}</h1>
-            <ReactPlayer className={ProjectCardStyles.ReactPlayer} url={props.youtube}/>
+            {/* <ReactPlayer className={ProjectCardStyles.ReactPlayer} url={props.youtube}/> */}
+            // Project slides here
             <p>{props.description}</p>            
                 {
                     props.github === false ? 
