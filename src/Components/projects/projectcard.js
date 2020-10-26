@@ -17,7 +17,7 @@ function ProjectCard(props) {
             <h1 className={ProjectCardStyles.Title}>{props.title}</h1>
             {/* <ReactPlayer className={ProjectCardStyles.ReactPlayer} url={props.youtube}/> */}
             <div className={ProjectCardStyles.Carousel}>
-            <Carousel views={images}/>
+                    <Carousel views={images} />
             </div>
             <p>{props.description}</p>            
                 {
