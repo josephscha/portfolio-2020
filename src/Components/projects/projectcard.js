@@ -44,12 +44,15 @@ function ProjectCard(props) {
                     </a> 
                 </>
                 }
+                {props.hasdemo === true ? 
+            <>
             Demo:
             <a  
                 href={props.youtube}
                 target="_blank" 
                 rel="noopener noreferrer"><FaYoutube className={ProjectCardStyles.Icon}/>
             </a>
+            </> : null }
         </div>
     )
 }

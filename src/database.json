@@ -5,6 +5,7 @@
         "description": "CLI Realtime Weather App using Metaweather API",
         "git" : "https://github.com/josephscha/mod-1-weather-project",
         "youtube" : "https://www.youtube.com/watch?v=gIy6cEg7Aic",
+        "hasdemo" : true,
         "github" : false,
         "screenshots" : ["./screenshots/weather/weather1.png", "./screenshots/weather/weather2.png"]
     },
@@ -14,6 +15,7 @@
         "description": "Simplified Art Gallery and Instagram clone using the Metropolitan Museum of Art Collection API",
         "git" : "https://github.com/josephscha/POSH-Port-Out-Starboard-Home",
         "youtube" : "",
+        "hasdemo" : false,
         "github": false,
         "screenshots" : ["./screenshots/posh/posh1.png", "./screenshots/posh/posh2.png", "./screenshots/posh/posh3.png", "./screenshots/posh/posh4.png"]
     },
@@ -24,6 +26,7 @@
         "gitfront" : "https://github.com/josephscha/gachamons--frontend",
         "gitback" : "https://github.com/josephscha/gachamons--backend",
         "youtube" : "",
+        "hasdemo" : false,
         "github": true,
         "screenshots" : ["./screenshots/gachamons/Gachamons1.png", "./screenshots/gachamons/Gachamons2.png","./screenshots/gachamons/Gachamons3.png","./screenshots/gachamons/Gachamons4.png","./screenshots/gachamons/Gachamons5.png"]
     },
@@ -34,6 +37,7 @@
         "gitfront" : "https://github.com/josephscha/gundam-frontend",
         "gitback" : "https://github.com/josephscha/gundam-backend",
         "youtube" : "",
+        "hasdemo" : false,
         "github": true,
         "screenshots" : ["./screenshots/gundam/gundam1.png","./screenshots/gundam/gundam2.png", "./screenshots/gundam/gundam3.png", "./screenshots/gundam/gundam4.png", "./screenshots/gundam/gundam5.png", "./screenshots/gundam/gundam6.png", "./screenshots/gundam/gundam7.png"]
     },
@@ -44,6 +48,7 @@
         "gitfront" : "https://github.com/josephscha/learn-n-play-frontend",
         "gitback": "https://github.com/josephscha/learn-n-play-backend" , 
         "youtube" : "",
+        "hasdemo" : false,
         "github": true,
         "screenshots" : ["./screenshots/learnnplay/learn1.png", "./screenshots/learnnplay/learn2.png", "./screenshots/learnnplay/learn3.png", "./screenshots/learnnplay/learn4.png", "./screenshots/learnnplay/learn5.png", "./screenshots/learnnplay/learn6.png", "./screenshots/learnnplay/learn7.png", "./screenshots/learnnplay/learn8.png", "./screenshots/learnnplay/learn9.png"]
     },
@@ -53,6 +58,7 @@
         "description": "Portfolio Website designed to look clean and chic.",
         "git" : "https://github.com/josephscha/portfolio-2020",
         "youtube" : "",
+        "hasdemo" : false,
         "github": false,
         "screenshots" : ["./screenshots/portfolio/portfolio.png"]
     }
